@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎞️ SHINKAI ARCHIVE // 新海 誠 アーカイブ
+#  SHINKAI ARCHIVE // 新海 誠 アーカイブ
 
 **An award-caliber, cinematic 35mm film-roll archive celebrating the filmography of Makoto Shinkai.**
 
@@ -16,40 +16,40 @@
 
 ---
 
-## ✨ Overview
+##  Overview
 
 **Shinkai Archive** is an immersive digital tribute designed around the aesthetic and motion of physical 35mm celluloid film rolls. Instead of traditional rigid carousels, it maps movie stills along a continuous sinusoidal wave curve rendered directly via an interactive WebGL canvas shader, complete with film sprockets, live camera telemetry, and interactive bilingual typographic transitions.
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
-- **🎞️ Squiggly 35mm Film Roll Carousel**
+- ** Film Roll Carousel**
   - Smooth custom physics engine with inertia, momentum dragging, spring settling, and mouse wheel navigation.
   - Custom vertex & fragment shaders simulating the organic curves, depth perspective, and curvature of a floating film strip.
   - Perforated celluloid sprocket rails framing each movie scene.
 
-- **🔤 Interactive Bilingual Word-Swap (`BilingualWordSwap`)**
+- ** Interactive Bilingual Word-Swap (`BilingualWordSwap`)**
   - Hovering the cinematic titles seamlessly morphs text word-by-word between English and Japanese (*Kanji/Katakana*) with staggered ease transitions.
 
-- **⏱️ Live 35mm Telemetry HUD**
+- ** Live 35mm Telemetry HUD**
   - Real-time timecode readout, aperture, shutter degree, frame rates, and reel counter synced to scroll physics.
   - Vertical *Tategaki* kanji typography column for traditional Japanese layout aesthetics.
 
-- **⚡ Zero-Idle GPU Optimization**
+- ** Zero-Idle GPU Optimization**
   - Intelligent RAF sleep: when the carousel settles and no hover animation is running, render cycles and draw calls pause completely (0% idle GPU / CPU usage).
   - Automatically respects user OS accessibility settings (`prefers-reduced-motion: reduce`).
 
-- **📱 Fully Responsive & Touch Optimized**
+- ** Fully Responsive & Touch Optimized**
   - Tuned touch gestures and drag-scrolling for mobile devices.
   - Accessible touch targets, skip-to-content keyboard links, and semantic metadata for SEO.
 
-- **📂 Full Archive Index & Dossier Modal**
+- ** Full Archive Index & Dossier Modal**
   - Toggle between the 3D cinematic reel and a full categorical archive view with deep film metadata, synopses, and quotes.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Framework**: [React 18](https://react.dev/)
 - **Build Tool**: [Vite 6](https://vitejs.dev/)
@@ -59,7 +59,7 @@
 
 ---
 
-## 📦 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -97,7 +97,7 @@ npm -v
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 shinkai-archive/
@@ -122,7 +122,7 @@ shinkai-archive/
 
 ---
 
-## 🎨 Customization
+##  Customization
 
 You can easily adjust movies, stills, and theme colors without modifying shader or animation code:
 
@@ -133,7 +133,7 @@ Edit [`src/data/shinkaiMovies.js`](src/data/shinkaiMovies.js):
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the [MIT License](LICENSE).
 
