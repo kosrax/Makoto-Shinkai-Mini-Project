@@ -24,27 +24,27 @@
 
 ##  Key Features
 
-- ** Film Roll Carousel**
+-  Film Roll Carousel
   - Smooth custom physics engine with inertia, momentum dragging, spring settling, and mouse wheel navigation.
   - Custom vertex & fragment shaders simulating the organic curves, depth perspective, and curvature of a floating film strip.
   - Perforated celluloid sprocket rails framing each movie scene.
 
-- ** Interactive Bilingual Word-Swap (`BilingualWordSwap`)**
+-  Interactive Bilingual Word-Swap (`BilingualWordSwap`)
   - Hovering the cinematic titles seamlessly morphs text word-by-word between English and Japanese (*Kanji/Katakana*) with staggered ease transitions.
 
-- ** Live 35mm Telemetry HUD**
+-  Live 35mm Telemetry HUD
   - Real-time timecode readout, aperture, shutter degree, frame rates, and reel counter synced to scroll physics.
   - Vertical *Tategaki* kanji typography column for traditional Japanese layout aesthetics.
 
-- ** Zero-Idle GPU Optimization**
+-  Zero-Idle GPU Optimization
   - Intelligent RAF sleep: when the carousel settles and no hover animation is running, render cycles and draw calls pause completely (0% idle GPU / CPU usage).
   - Automatically respects user OS accessibility settings (`prefers-reduced-motion: reduce`).
 
-- ** Fully Responsive & Touch Optimized**
+-  Fully Responsive & Touch Optimized
   - Tuned touch gestures and drag-scrolling for mobile devices.
   - Accessible touch targets, skip-to-content keyboard links, and semantic metadata for SEO.
 
-- ** Full Archive Index & Dossier Modal**
+-  Full Archive Index & Dossier Modal
   - Toggle between the 3D cinematic reel and a full categorical archive view with deep film metadata, synopses, and quotes.
 
 ---
